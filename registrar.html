@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Registre-se</title>
+</head>
+<body>
+    <form>
+        <h1>Cadastre-se</h1>
+        <p class="p1" style="font-size: 15px;">Faça o <strong>cadastro</strong> abaixo para continuar:</p>
+        <br>
+        <div class="formulario">
+            <p><strong>Usuário:</strong><input class="forma" type="text" title="Usuário" id="username" placeholder="Username"></p>
+            <p><strong>Senha:</strong><input class="forma" type="password" title="Senha" id="password" placeholder="Password"></p>
+            <p><strong>E-mail:</strong><input class="forma" type="email" title="E-mail" id="email" placeholder="User@email.com"></p>
+            <p><strong>Celular</strong><input class="forma" type="tel" title="Celular" id="phone" maxlength="15" placeholder="(12) 23456-7890"></p>
+        </div>
+        <br>
+        <a href="index.html" type="button" class="voltar">Voltar</a><a onclick="registrar()" href="#" class="btn2">Registrar</a>
+        <span class="usernot" id="usernot">Usuário já existe, tente novamente.</span>
+        <span class="usernot" id="usernot">A senha deve conter no mínimo 6 caracteres,<br> uma letra maiuscula e 1 caráctere especial.</span>
+        <span class="usernot" id="usernot">Preencha todos os campos.</span>
+    </form>
+    <script src="js/registrar.js"></script>
+</body>
+</html>

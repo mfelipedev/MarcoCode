@@ -1,0 +1,141 @@
+@charset "UTF8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    min-height: 100vh;
+    background-color: rgb(74, 138, 199);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+form {
+    text-align: center;
+    font-size: 150%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 55px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.11);
+}
+
+.usuario {
+    background-color: rgba(0, 0, 0, 0.151);
+    padding: 5px;
+    border-radius: 5px;
+    border-color: rgba(165, 42, 42, 0);
+    width: 150px;
+}
+
+.forma {
+    background-color: rgba(0, 0, 0, 0.151);
+    padding: 5px;
+    border-radius: 5px;
+    border-color: rgba(165, 42, 42, 0);
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 12px;
+}
+
+h1 {
+    color: rgb(56, 56, 56);
+}
+
+p {
+    font-size: 18px;
+}
+
+.p1 {
+    font-size: 18px;
+}
+
+.btn {
+    padding: 8px 16px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100px; /* Defina a largura desejada */
+    background-color: rgb(56, 56, 56);
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.btn2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 16px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100px; /* Defina a largura desejada */
+    background-color: rgb(56, 56, 56);
+    margin-left: 5px;
+    margin-top: 5px;
+    font-style: none;
+    text-decoration: none;
+
+}
+
+.btn:hover {
+    background-color: rgba(56, 56, 56, 0.336);
+}
+
+.btn2:hover {
+    background-color: rgba(56, 56, 56, 0.336);
+    text-decoration: none;
+}
+
+.usernot {
+    display: none;
+    font-size: 12px;
+    color: rgb(255, 0, 0);
+    margin-top: 15px;
+}
+
+.formulario {
+    
+    text-align: right;
+    margin-right: 25px;
+    
+}
+
+.voltar {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 16px;
+    cursor: pointer;
+    color: rgb(56, 56, 56);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100px; /* Defina a largura desejada */
+    margin-left: 5px;
+    margin-top: 5px;
+    font-style: none;
+    text-decoration: none;
+}
+
+.voltar:hover {
+    text-decoration: underline;
+}
+
+.lg {
+    text-align: center;
+    font-size: 150%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 55px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.11);
+}
+
+.p4 {
+    margin-bottom: 15px;
+}

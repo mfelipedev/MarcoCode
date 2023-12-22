@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Login</title>
+</head>
+<body>
+    <form onsubmit="login(); return false;" id="loginForm">
+      <div class="formulario">
+        <h1>MarcoCode</h1>
+        <p class="p1" style="font-size: 15px;">Faça o <strong>login</strong> abaixo para continuar:</p>
+        <br>
+        <p><strong>Usuário:</strong><input class="forma" type="text" title="Usuário" id="username" placeholder="Username"></p>
+        <p><strong>Senha:</strong><input class="forma" type="password" title="Senha" id="password" placeholder="Password"></p>
+        <br>
+        <button type="submit" class="btn" id="loginBtn">Login</button><a href="registrar.html" class="btn2">Registrar</a>
+        <span class="usernot" id="usernot">Usuário não encontrado, tente novamente.</span>
+      </div>
+    </form>
+    <script src="js/login.js"></script>
+</body>
+</html>
